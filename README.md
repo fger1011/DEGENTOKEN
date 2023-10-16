@@ -67,31 +67,30 @@ contract DegenToken is ERC20, Ownable {
 Open Remix IDE (https://remix.ethereum.org/).
 In the Remix IDE, click on the "Settings" tab (the gear icon on the top right).
 In the "Plugin Manager" section, search for "Avalanche" and enable the Avalanche plugin.
+
 **Create Your Smart Contract:**
-
 Create or paste the Solidity code for your smart contract into a new file in the Remix IDE.
+
 **Select the Avalanche Network:**
-
 In the Remix IDE, go to the "Plugin Manager" (bottom left corner) and make sure the Avalanche plugin is enabled.
-**Connect Your Avalanche Wallet:**
 
+**Connect Your Avalanche Wallet:**
 In the Remix IDE, go to the "Deploy & Run Transactions" tab on the left sidebar.
 Under the "Environment" dropdown, select "Avalanche - Snowtrace C-Chain."
 Note: Make sure that your MetaMask wallet is configured to work with the Avalanche network. If you haven't done this already, you need to set up Avalanche on your MetaMask account. You can find instructions on how to do this in MetaMask's documentation.
 
 **Compile Your Contract:**
-
 In the "Solidity Compiler" tab, select the appropriate Solidity version for your contract, and then click the "Compile" button.
-**Deploy Your Contract:**
 
+**Deploy Your Contract:**
 In the "Deploy & Run Transactions" tab, select your contract from the dropdown.
 Fill in any required parameters for the constructor (if your contract has any) and click the "Deploy" button.
 MetaMask will open, prompting you to confirm the deployment transaction. Make sure you have enough AVAX in your MetaMask wallet to cover the gas fees.
+
 **Interact with Your Contract:**
-
 After your contract is deployed, you can interact with it using the provided functions in the "Deployed Contracts" section.
-**View Transactions and Logs:**
 
+**View Transactions and Logs:**
 You can also view transaction details and logs by selecting the transaction in the "Transactions" tab on the right sidebar.
 ## Authors
 Metacrafter Franco
